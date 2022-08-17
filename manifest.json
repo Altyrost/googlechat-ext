@@ -4,17 +4,17 @@
       "default_title": "Google Chat",
       "default_popup": "index.html",
       "default_icon": {
-        "19": "icons/googlechat19.png",
-        "38": "icons/googlechat38.png"
+        "20": "icons/googlechat19.png",
+        "40": "icons/googlechat38.png"
       }
     },
     "icons": {
-      "48": "icons/googlechat.png",
-      "96": "icons/googlechat@2x.png"
+      "50": "icons/googlechat.png",
+      "100": "icons/googlechat@2x.png"
     },
-    "description": "A simple google chat popup",
+    "description": "A simple Google Chat popup",
     "permissions": ["tabs"],
     "manifest_version": 2,
-    "name": "Google Chat Extension",
-    "version": "1.0"
+    "name": "Google Chat Popup",
+    "version": "1.0.1"
   }
