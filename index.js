@@ -1,4 +1,4 @@
-let DEBUG = true;
+let DEBUG = false;
 
 async function find_googlechat_window()
 {
