@@ -2,7 +2,6 @@
     "browser_action": {
       "browser_style": true,
       "default_title": "Google Chat",
-      "default_popup": "index.html",
       "default_icon": {
         "20": "icons/googlechat19.png",
         "40": "icons/googlechat38.png"
@@ -13,8 +12,11 @@
       "100": "icons/googlechat@2x.png"
     },
     "description": "A simple Google Chat popup",
+    "background": {
+      "scripts": ["index.js"]
+    },
     "permissions": ["tabs"],
     "manifest_version": 2,
     "name": "Google Chat Popup",
-    "version": "1.0.3"
+    "version": "1.0.5"
   }
