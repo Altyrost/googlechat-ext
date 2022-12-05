@@ -8,7 +8,7 @@ async function find_googlechat_window()
 
     for (windowInfo of getting) {
         for (tab of windowInfo.tabs)
-            if (tab.url.startsWith("https://mail.google.com/mail")) {
+            if (tab.url.startsWith("https://mail.google.com/mail/u/0/#chat")) {
                 return windowInfo.id;
             }
     }
