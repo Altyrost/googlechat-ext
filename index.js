@@ -8,7 +8,7 @@ async function find_googlechat_window()
 
     for (windowInfo of getting) {
         for (tab of windowInfo.tabs)
-            if (tab.url.startsWith("https://mail.google.com/chat")) {
+            if (tab.url.startsWith("https://mail.google.com/mail")) {
                 return windowInfo.id;
             }
     }
@@ -23,7 +23,7 @@ async function find_googlechat_window()
                 type: "panel",
                 height: 800,
                 width: 1000,
-                url: "https://mail.google.com/chat/u/0/#chat/welcome"
+                url: "https://mail.google.com/mail/u/0/#chat/welcome"
             };
             browser.windows.create(createData);
         } else {
